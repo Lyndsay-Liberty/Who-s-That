@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7eab, #80d0c7, #a8c0e0); /* Multicolored gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #e2e2e2;
+    cursor: move;
+    border-radius: 5px;
+}
+
+.highlight-correct {
+    background-color: #d3cce3; /* Light purple */
+}
+
+.highlight-wrong {
+    background-color: #ff4d4d; /* Bright pink */
+}
